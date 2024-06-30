@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/Untitled design1.png">
+    <title>Devang.- portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <script src="https://kit.fontawesome.com/07c39909c6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+           
+            <nav>
+                <img src="./images/logo9.png.png"  class="logo" alt="">
+                <ul id="side">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header">
+                <p>CSE Student</p>
+                <h1>Hi, I'm <span>Devang Patel</span> <br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!------------about--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about1">
+                    <img src="./images/IMG_8710.JPEG.jpg" alt="">
+                </div>
+                <div class="about2">
+                    <h1 class="sub">About Me</h1>
+                    <br>
+                    <p>I am a passionate Web Developer and Software Engineer with a proven track record of delivering high-quality, scalable web applications. With a strong foundation in both front-end and back-end technologies, I specialize in creating seamless, user-friendly experiences. My expertise spans across multiple programming languages, frameworks, and tools, allowing me to bring innovative solutions to complex problems.
+                        <br>
+                        <br>
+                        Skills & Expertise:
+                        <br>
+                        <br>
+                        Front-End Development: HTML, CSS, JavaScript, React,tailwind css
+                        <br>
+                        Back-End Development: Node.js, express.js, Java
+                        <br>
+                        Database Management: MySQL, MongoDB, SQLite
+                    </p>
+                    <div class="tab">
+                        <p class="tab-link active"onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link onclick="onclick="opentab('experince')">Experince</p>
+                        <p class="tab-link onclick="onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab2 active1"id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Build websites using latest technology</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>JAVA Development</span><br>Build Java applications</li>
+                        </ul>
+                    </div>
+                    <div class="tab2 active2" id="experince">
+                        <ul>
+                            <li><span>jan 2024- march 2024 </span><br>web developer Traning at Electoweb solutions</li>
+                        </ul>
+                    </div>
+                    <div class="tab2 active3" id="education">
+                        <ul>
+                            <li><span>2022 - current</span><br>B.tech [ cse ] student At Indrashil University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub">My Services</h1>
+            <div class="serv">
+                <div>
+                    <i class="fa-solid fa-pen-nib" style="color:#fff;"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>intuitive Designs: Crafting visually appealing and user-friendly interfaces that enhance user engagement.
+                        Responsive Design: Ensuring seamless experience across all devices and screen sizes.
+                        Brand Consistency: Aligning your brand identity with the visual elements for a cohesive look and feel.
+                    </p>
+                   
+                </div>
+                <div>
+                    <i class="fa-solid fa-code" style="color: #fff;"></i>
+                    <h2>Web Development</h2>
+                    <p>Custom Website Development: Building tailored websites that meet your specific business needs and goals.
+                        Responsive Design: Creating websites that provide an optimal viewing experience across all devices and screen sizes.
+                        Content Management Systems (CMS): Implementing user-friendly CMS platforms like WordPress, Joomla, and Drupal for easy content updates.
+                    </p>
+                    
+                </div>
+                <div>
+                    <i class="fa-brands fa-java" style="color: #fff;"></i>
+                    <h2>Java Development</h2>
+                    <p>Java Web Development: Creating dynamic and responsive web applications using Java frameworks like Spring and Hibernate.
+                        Full-Stack Development: Offering comprehensive development from front-end to back-end using Java and associated technologies.
+                        API Development: Designing and integrating secure APIs to extend the functionality of your web applications.
+                    </p>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub">My Work</h1>
+            <div class="works">
+                <div class="work1">
+                    <img src="images/white2.png" >
+                    <div class="layer">
+                        <h3>White Board Web application</h3>
+                        <p> * Created a realtime whiteboard built using Vanilla JavaScript, HTML and CSS.</p>
+                        <a href="https://yourwhiteboard.netlify.app"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                    </div>
+                </div>
+                <div class="work1">
+                    <img src="images/Untitled design.png" alt="">
+                    <div class="layer">
+                        <h3>CodeZ-code editor</h3>
+                        <p>a online code editor to practice frontend tools   </p>
+                        <a href="https://github.com/devang1018/codeez"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                    </div></div>
+                <div class="work1">   
+                    <img src="images/world2.png" alt="">
+                    <div class="layer">
+                        <h3>wanderlust</h3>
+                        <p>a travelling web app  [it will be host soon]</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                    </div>
+                </div>
+                <div class="work1">   <img src="images/simonsays.png" alt="">
+                    <div class="layer">
+                        <h3>Simon Says Game</h3>
+                        <p>created with html, css , vanilia js </p>
+                        <a href="https://github.com/devang1018/simonsays"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                    </div>
+                </div>
+            
+             </div>
+           
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="left">
+                    <h1 class="sub">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane" style="color: #3820f0;"></i> devangpatel10505@gmail.com</p>
+                    <p><i class="fa-solid fa-phone" style="color: #3820f0;"></i> +91 9662331035</p>
+                    <br>
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/devang-patel-5708a526b/">  <i class="fa-brands fa-linkedin" ></i></a>
+                        <a href="https://www.instagram.com/devangpatel_1018/?next=%2F"><i class="fa-brands fa-instagram" ></i></a>
+                      <a href="https://github.com/devang1035"> <i class="fa-brands fa-github" ></i></a> 
+                    </div>
+                    <a href="images/devangpatel.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email"name="Email"placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit"class="btn btn2">Sumbit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> &copy; copyright</p>
+        </div>
+    </div>
+ <script src="app.js"></script>
+</body>
+</html>
